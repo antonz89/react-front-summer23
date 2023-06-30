@@ -9,4 +9,3 @@ Register/Login with bcrypt, jwt, email/password validator
 MongoDB
 React
 
-Back-end and Frond-end have their own .env files
