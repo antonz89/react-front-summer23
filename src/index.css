@@ -1,0 +1,175 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+/* layout */
+:root {
+  --primary: #1aac83;
+  --error: #e7195a;
+}
+body {
+  background: hsl(205, 91%, 82%);
+  margin: 0;
+  font-family: "Poppins";
+}
+header {
+  background: #fff;
+}
+nav{
+  padding-left: 50px;
+}
+.nav-span{
+  padding-right: 10px;
+}
+
+header .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-top:  20px;
+  display: flex;
+  /* align-items: center;
+  justify-content: space-between; */
+}
+header a {
+  color: #333;
+  text-decoration: none;
+  padding-left: 20px;
+
+  
+}
+.pages{
+  max-width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+header .target-nav{
+  padding-left: 50px;
+  color: #c23f3f;
+}
+
+/* homepage */
+img{
+  max-width: 250px;
+  max-width: 250px;
+  padding: 10px;
+  padding-left: 100px;
+}
+
+.pic-details{
+
+}
+
+.home {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+.items{
+  max-width: 900px;
+}
+.item-text{
+  padding: 10px;
+  min-width: 20%;
+}
+.item-details {
+  background: #fff;
+  border-radius: 4px;
+  margin: 10px auto;
+  /* padding: 20px;
+  position: relative; */
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+  display:flex;
+
+}
+.item-details h4 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  color: var(--primary);
+}
+.item-details p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #555;
+}
+.item-details span {
+  /* position: absolute; */
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 6px;
+  border-radius: 50%;
+  color: #333;
+}
+/* new workout form */
+
+.create{
+  margin-right: 70px;
+}
+label, input {
+  display: block;
+}
+input,select {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form button {
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+/* navbar */
+nav {
+  display: flex;
+  align-items: center;
+  /* margin-left: 100px; */
+  
+}
+nav a {
+  margin-left: 10px;
+}
+nav button {
+  background: #fff;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-family: "Poppins";
+  cursor: pointer;
+  font-size: 1em;
+}
+/* auth forms */
+form.signup, form.login {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+}
+/* auth forms */
+form.signup, form.login {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+}
+
